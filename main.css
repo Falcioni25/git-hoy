@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos generales de los div*/
+
+div{
+    width: 130px;
+    height: 130px;
+    background-color: aquamarine;
+    margin: 1rem;
+    display: inline-block;
+}
+/*estilos individuales*/
+.caja-uno{
+    background-image: linear-gradient(to left, red,yellow);
+    transform: skew(10deg,30deg)
+}
+.caja-dos{
+    background-image: radial-gradient(black, yellow);
+    transform: translateY(30px)
+}
+.caja-tres{
+    transform: rotateX(30deg);
+}
